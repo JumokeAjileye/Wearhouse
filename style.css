@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./pexels-sam-lion-5709656.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3{
+    text-align: center;
+    color: antiquewhite;
+}
+
+p {
+    color: azure;
+}
+
+fieldset {
+    color: rgb(255, 254, 249);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ 
+.message {
+color: teal;
+}
+
+.button {
+    position: relative;
+    color: brown;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;   
+}
+
+.button:hover {
+    background-color:#aecc27;
+    transition: 0.7s;
+}
+

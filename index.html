@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>WEAR-HOUSE</title>
+</head>
+
+<body>
+    <br>
+    <div>
+        <h1> WEAR-HOUSE</h1>
+        <h3>Thank you for choosing us. Please fill in your details to enable us send your delivery.</h3>
+    </div>
+
+    <form action="" method="post"></form>
+    <form action="mailto:jummycarex@gmail.com" method="post">
+
+        <fieldset>
+            <legend>User Personal Information</legend> <br>
+            <div>
+                <label for="Your name">Your Name</label><br>
+                <input type="text" name="yourname" value="" placeholder="Please enter your name" /><br><br>
+                <label for="email">Your Email</label><br>
+                <input type="text" name="email" value="" placeholder="Please enter your email address" /><br> <br>
+                <label for="age">Your age</label><br>
+                <input type="number" name="age" value="" placeholder="Please enter your age" /><br><br>
+                <label for="date">Your DOB</label>
+                <input type="date" name="dob" value="" placeholder="Enter your DOB"><br><br>
+                <label for="mobile">Your phone number</label>
+                <input type="text" name="phone number" value="" placeholder="Please enter number"><br><br>
+            </div>
+
+            <div>
+                <label>What color of sample should we send you?</label>
+
+                <label for="sample-white">
+                    <input type="checkbox" name="color" id="sample-White" value="White" disabled>White
+                </label>
+
+                <label for="sample-burgundy">
+                    <input type="checkbox" name="color" id="sample-burgundy" value="burgundy">burgundy
+                </label>
+
+                <label for="sample-coral">
+                    <input type="checkbox" name="color" id="sample-coral" value="coral">coral
+                </label>
+
+                <label for="sample-magenta">
+                    <input type="checkbox" name="color" id="sample-magenta" value="magenta">magenta
+                </label><br><br>
+            </div>
+
+            <div>
+                <label>How large is your team?</label><br><br>
+
+                <label for="team-small">
+                    <input type="radio" name="team-size" id="team-size" value="5-10"> 5-10 people
+                </label><br>
+
+                <label for="team-medium">
+                    <input type="radio" name="team-size" id="team-medium" value="10-20"> 10-20 people
+                </label><br>
+
+                <label for="team-large">
+                    <input type="radio" name="team-size" id="team-large" value="20+"> 20+ people
+                </label><br><br>
+
+            </div>
+
+
+            <label for="message">Your message</label><br><br>
+            <textarea name="message" cols="30" rows="10" placeholder="Anything you want us to note?" cols="30" rows="10"
+                class="message"></textarea><br><br>
+
+            <div>
+                <label for="offer">
+                    <input type="checkbox" name="offer" id="offer"> Sign up for special offers
+                </label> <br>
+            </div>
+
+            <div>
+                <label for="content">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    Remember me</label> <br><br>
+            </div>
+
+            <button class="button">
+                <form action="order">Place Order</form>
+            </button>
+        </fieldset>
+    </form>
+    <script src="./wh.js"></script>
+</body>
+
+</html>
